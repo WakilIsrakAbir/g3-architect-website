@@ -14,6 +14,52 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(207, 173, 173);
+/* shard style */
+/* shard style */
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* dark 02 */
+.text-gray{
+    color: #424242;
+}
+
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+
+
+/* header Style */
+
+/* navbar related style*/
+.navbar{
+    justify-content: space-between;
+}
+
+.navbar .links{
+    gap: 30px;
+}
+
+.navbar .links .nav-item{
+    list-style: none;
+}
+
+.navbar .links .nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.navbar, .banner{
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
