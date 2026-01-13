@@ -170,7 +170,18 @@ main{
     margin: 100px 0px;
 }
 
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
 
+#experience-year{
+    font-size: 4rem;
+    font-weight: bold;
+}
 
 
 /* some fact related style */
@@ -231,6 +242,14 @@ main{
     filter: grayscale(100%);
 }
 
+/* copyrigth section */
+.copyright{
+    background-color: #f3be85;
+    text-align: center;
+    padding: 20px 0;
+    margin: 100px 0;
+}
+
 /* responsive media quary */
 @media screen and (max-width:576px) {
     .navbar, 
@@ -254,6 +273,31 @@ main{
     .our-features{
         margin-left: 20px;
     }
+
+    .features{
+        flex-direction: column;
+    }
+
+    /* img {
+        width: 100%;
+    } */
+
+    #misty{
+        width: 100%;
+    }
+
+    #experience-badge {
+        padding: 10px 10px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: -60px;
+    }
+
+    #experience-year {
+        font-size: 2rem;
+        font-weight: bold;
+    }
 }
 
 
@@ -275,4 +319,28 @@ main{
         gap: 20px;
     }
 
+    .features{
+        flex-direction: column;
+    }
+
+    #experience-badge {
+        padding: 10px 10px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-top: -60px;
+    }
+
+    #experience-year {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    /* img {
+        width: 100%;
+    } */
+
+    #misty{
+        width: 100%;
+    }
 }
