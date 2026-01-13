@@ -144,6 +144,33 @@ main{
     margin-bottom: 24px;
 }
 
+/* some fact related style */
+.fact-card{
+    border: 1px solid rgb(221, 162, 14);
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.fact-name{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.fact-description{
+    max-width: 540px;
+}
+
 
 /* responsive media quary */
 @media screen and (max-width:576px) {
